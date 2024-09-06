@@ -29,7 +29,7 @@
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content">
           <label htmlFor="my-drawer" class="btn bg-white border-none">
-            <img :src="menu" class="w-8" alt="" srcset="" />
+            <img :src="menu" class="w-8" alt="" />
           </label>
         </div>
         <div class="drawer-side">
@@ -43,10 +43,11 @@
           >
             <img :src="logo" class="lg:w-24 w-56 mb-20" />
 
-            <li class="">
+            <li>
               <router-link
                 to="/"
-                class="hover:text-black transition-colors duration-300 text-lg bg-white w-full px-20 mb-2 hover:bg-yellow-400 "
+                class="hover:text-black transition-colors duration-300 text-lg bg-white w-full px-20 mb-2 hover:bg-yellow-400"
+                active-class="text-black"
                 >الرئيسية</router-link
               >
             </li>
@@ -54,6 +55,7 @@
               <router-link
                 to="/about"
                 class="hover:text-black transition-colors duration-300"
+                active-class="text-black"
                 >من نحن</router-link
               >
             </li>
@@ -61,6 +63,7 @@
               <router-link
                 to="/menu"
                 class="hover:text-black transition-colors duration-300"
+                active-class="text-black"
                 >القائمة</router-link
               >
             </li>
@@ -68,6 +71,7 @@
               <router-link
                 to="/pages"
                 class="hover:text-black transition-colors duration-300"
+                active-class="text-black"
                 >الصفحات</router-link
               >
             </li>
@@ -75,14 +79,15 @@
               <router-link
                 to="/contact"
                 class="hover:text-black transition-colors duration-300"
+                active-class="text-black"
                 >اتصل بنا</router-link
               >
             </li>
             <button
-          class="bg-[#ffbc11] px-6 sm:px-10 py-3 sm:py-4 font-semibold hover:text-white transition-colors duration-300 w-full"
-        >
-          اطلب عبر الإنترنت
-        </button>
+              class="bg-[#ffbc11] px-6 sm:px-10 py-3 sm:py-4 font-semibold hover:text-white transition-colors duration-300 w-full"
+            >
+              اطلب عبر الإنترنت
+            </button>
           </ul>
         </div>
       </div>
@@ -95,6 +100,7 @@
             <router-link
               to="/"
               class="hover:text-black transition-colors duration-300"
+              active-class="text-black"
               >الرئيسية</router-link
             >
           </li>
@@ -102,6 +108,7 @@
             <router-link
               to="/about"
               class="hover:text-black transition-colors duration-300"
+              active-class="text-black"
               >من نحن</router-link
             >
           </li>
@@ -109,6 +116,7 @@
             <router-link
               to="/menu"
               class="hover:text-black transition-colors duration-300"
+              active-class="text-black"
               >القائمة</router-link
             >
           </li>
@@ -116,6 +124,7 @@
             <router-link
               to="/pages"
               class="hover:text-black transition-colors duration-300"
+              active-class="text-black"
               >الصفحات</router-link
             >
           </li>
@@ -123,6 +132,7 @@
             <router-link
               to="/contact"
               class="hover:text-black transition-colors duration-300"
+              active-class="text-black"
               >اتصل بنا</router-link
             >
           </li>
