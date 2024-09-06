@@ -432,16 +432,7 @@ export default {
 </script>
 
 <style scoped>
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-.rotate-animation {
-  animation: spin 100s linear infinite;
-}
+
+
 </style>
