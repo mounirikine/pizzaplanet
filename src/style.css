@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    @apply font-lato 
+}
+
+body{
+  @apply  bg-[#e93037] text-black
+}
+
+.d{
+  background: #ffffff;
+}
