@@ -225,7 +225,7 @@
           <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2 hover:text-red-600">
             5 أماكن رائعة لتناول البيتزا الإيطالية الأصلية في لوس أنجلوس
           </h1>
-          <p class="text-white">
+          <p class="text-black">
             تجربة بيتزا مميزة مع مكونات طازجة ونكهات فريدة تجمع بين الأصالة
             والإبداع. تذوقها الآن!
           </p>
