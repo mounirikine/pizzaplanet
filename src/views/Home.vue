@@ -2,51 +2,33 @@
   <section>
     <TopHeader />
 
-    <section class="text-black body-font min-h-screen">
-      <div
-        class="container mx-auto flex gap-4 px-5 py-4 flex-col md:flex-row items-center justify-end"
-      >
-        <!-- Left content -->
-        <div
-          class="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-        >
-          <h1
-            class="title-font lg:text-6xl font-semibold font-lato text-right text-white sm:text-4xl text-3xl mb-4"
-          >
-            <img :src="wra" class="w-24" alt="" /> أفضل مكان لتناول البيتزا
-            بسهولة
-          </h1>
-          <div class="w-full flex items-end justify-end">
-            <p
-              class="mb-8 leading-relaxed text-right w-10/12 text-gray-200 text-lg flex items-center"
-            >
-              نقدم تجربة فريدة لعشاق البيتزا بمكونات طازجة وخيارات متنوعة تناسب
-              جميع الأذواق، في أجواء مريحة وعصرية.
-            </p>
-          </div>
-          <div class="flex gap-3 items-center justify-end w-full">
-            <button
-              class="bg-black px-6 md:px-16 lg:px-24 py-4 lg:py-6 font-semibold text-white transition-colors duration-300"
-            >
-              احجز طاولة
-            </button>
-            <button
-              class="bg-[#ffbc11] px-6 md:px-16 lg:px-24 py-4 lg:py-6 font-semibold hover:text-white transition-colors duration-300"
-            >
-              اطلب عبر الإنترنت
-            </button>
-          </div>
-        </div>
-        <!-- Right content (Pizza image) -->
-        <div class="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-          <img
-            class="object-cover object-center rounded rotate-animation"
-            alt="hero"
-            :src="pizza"
-          />
-        </div>
+    <section class="text-black body-font ">
+  <div class="container mx-auto flex flex-col-reverse md:flex-row gap-4 px-5 py-4 items-center">
+    <!-- Left content -->
+    <div class="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-16 md:mb-0">
+      <h1 class="title-font lg:text-6xl font-semibold font-lato text-white sm:text-4xl text-3xl mb-4">
+        <img :src="wra" class="w-24 mx-auto md:mx-0" alt="Logo" /> 
+        أفضل مكان لتناول البيتزا بسهولة
+      </h1>
+      <p class="mb-8 leading-relaxed text-gray-200 text-lg">
+        نقدم تجربة فريدة لعشاق البيتزا بمكونات طازجة وخيارات متنوعة تناسب جميع الأذواق، في أجواء مريحة وعصرية.
+      </p>
+      <div class="flex flex-col md:flex-row gap-3 items-center justify-center md:justify-start w-full">
+        <button class="bg-black px-6 py-4 font-semibold text-white transition-colors duration-300">
+          احجز طاولة
+        </button>
+        <button class="bg-[#ffbc11] px-6 py-4 font-semibold hover:text-white transition-colors duration-300">
+          اطلب عبر الإنترنت
+        </button>
       </div>
-    </section>
+    </div>
+    <!-- Right content (Pizza image) -->
+    <div class="md:w-1/2 w-full flex justify-center">
+      <img class="object-cover object-center rounded rotate-animation max-w-full h-auto" alt="Pizza" :src="pizza" />
+    </div>
+  </div>
+</section>
+
 
     <section class="bg-white px-4 sm:px-10 py-12 sm:py-24">
       <main>

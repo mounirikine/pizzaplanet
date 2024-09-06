@@ -20,10 +20,10 @@
     <div class="flex flex-row items-center justify-between py-3 px-4 sm:px-10">
       <!-- Logo Section -->
       <div class="w-8/12 sm:w-3/12 mb-2 sm:mb-0">
-        <img :src="logo" class="lg:w-24 w-56" />
+        <img :src="logo" class="lg:w-60 w-56" />
       </div>
       <!-- Navigation Menu -->
-      <li class="  w-1/12 flex items-center justify-end "><img :src="shop" class="w-6 sm:w-8" /></li>
+      <li class="  w-1/12 flex items-center justify-end xl:hidden "><img :src="shop" class="w-6 sm:w-8" /></li>
 
       <div class="drawer lg:hidden w-2/12">
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
@@ -126,7 +126,7 @@
               >اتصل بنا</router-link
             >
           </li>
-          <li><img :src="shop" class="w-6 sm:w-8" /></li>
+          <li class=""><img :src="shop" class="w-6 sm:w-8 " /></li>
         </ul>
       </div>
       <!-- Button -->
