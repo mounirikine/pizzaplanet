@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
     fontFamily : {
-      'lato':["Rubik", "sans-serif"]
+      'lato':["Tajawal", "sans-serif"]
     }
   },
   plugins: [require('daisyui'),],
