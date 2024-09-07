@@ -97,7 +97,7 @@
   <hr class="border border-red-500">
   <p class="py-4 text-right">لا توجد منتجات.</p>
   <div class="modal-action">
-    <button class="btn bg-yellow-400" @click="closeModal">إغلاق</button>
+    <button class="btn bg-yellow-400 border-none" @click="closeModal">إغلاق</button>
   </div>
 </div>
 
