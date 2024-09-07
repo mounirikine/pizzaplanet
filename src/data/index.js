@@ -6,6 +6,14 @@ import r5 from '../assets/r5.png'
 import r6 from '../assets/r6.png'
 import r7 from '../assets/r7.png'
 import r8 from '../assets/r8.png'
+import r9 from '../assets/r9.png'
+import r10 from '../assets/r10.png'
+import r11 from '../assets/r11.png'
+import r12 from '../assets/r12.png'
+import r13 from '../assets/r13.png'
+import r14 from '../assets/r14.png'
+import r15 from '../assets/r15.png'
+import r16 from '../assets/r16.png'
 
 
 const  pizzas = [
@@ -63,6 +71,64 @@ const  pizzas = [
         img : r8,
         name: "Buffalo pizza",
         price: "14.99"
+
+    },
+ 
+    {
+        id:9,
+        img : r9,
+        name: "Normal Soda",
+        price: "3.99"
+
+    },
+    {
+        id:10,
+        img : r10,
+        name: "Light Soda",
+        price: "2.99"
+
+    },
+    {
+        id:11,
+        img : r11,
+        name: "Lemon Soda",
+        price: "2.99"
+
+    },
+    {
+        id:12,
+        img : r12,
+        name: "Milkshake",
+        price: "9.99"
+
+    },
+ 
+    {
+        id:13,
+        img : r13,
+        name: "Strawberry Pie",
+        price: "9.99"
+
+    },
+    {
+        id:14,
+        img : r14,
+        name: "Special Cupcake",
+        price: "2.99"
+
+    },
+    {
+        id:15,
+        img : r15,
+        name: "Cocanut Iceceam",
+        price: "3.99"
+
+    },
+    {
+        id:16,
+        img : r16,
+        name: "Berries Iceceam",
+        price: "3.99"
 
     },
  
