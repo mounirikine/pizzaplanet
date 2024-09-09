@@ -30,7 +30,7 @@
     
 
       <!-- Desktop Menu -->
-      <div class="w-full sm:w-6/12 mb-2 sm:mb-0 hidden lg:flex">
+      <div class="w-full sm:w-5/12 mb-2 sm:mb-0 hidden lg:flex">
         <ul
           class="flex flex-row items-center justify-end gap-4 sm:gap-8 uppercase text-white text-sm sm:text-lg font-semibold"
         >
@@ -64,16 +64,7 @@
               القائمة
             </router-link>
           </li>
-          <li>
-            <router-link
-              to="/pages"
-              :class="{ 'text-black': $route.path === '/pages' }"
-              class="hover:text-black transition-colors duration-300"
-              active-class="text-black"
-            >
-              الصفحات
-            </router-link>
-          </li>
+
           <li>
             <router-link
               to="/contact"
@@ -150,17 +141,7 @@
                 القائمة
               </router-link>
             </li>
-            <li>
-              <router-link
-                to="/pages"
-                :class="{
-                  'hover:text-black transition-colors duration-300 text-lg bg-white w-full px-20 mb-2 hover:bg-yellow-400': $route.path === '/pages'
-                }"
-                active-class="text-black"
-              >
-                الصفحات
-              </router-link>
-            </li>
+
             <li>
               <router-link
                 to="/contact"
